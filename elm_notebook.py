@@ -213,4 +213,4 @@ elmr = ELMRegressor(activation_func='inv_tribas', random_state=0)
 elmr.fit(xtoy_train, ytoy_train)
 print(elmr.score(xtoy_train, ytoy_train), elmr.score(xtoy_test, ytoy_test))
 plt.plot(xtoy, ytoy, xtoy, elmr.predict(xtoy))
-
+# %%
